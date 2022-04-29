@@ -34,6 +34,6 @@ LinkedIn Name Scrape
 
 
 
-## TLDR - console command:
+## TLDR - web console command:
 
 ` > let els = document.getElementsByClassName("org-people-profile-card__profile-title");Array.prototype.forEach.call(els, function(el) {console.log(el.innerText);});`

@@ -1,6 +1,7 @@
-LinkedIn Name Scrape (Manual)
-=============================
-Manaul method to scrape employee names from a Company's LinkedIn page to use for password spraying attacks
+LinkedIn Name Scrape
+====================
+> Manual method to scrape employee names from a company's LinkedIn page to use for password spraying attacks
+<br>
 
 1) Visit People Section of Company's LinkedIn as an Authenticated LI User
 
@@ -29,9 +30,10 @@ Manaul method to scrape employee names from a Company's LinkedIn page to use for
 
 ![linkedin_name_scrape_PoC](https://user-images.githubusercontent.com/52467325/166062515-594a9dfc-2a12-4e24-96ce-c024512058af.png)
 
-6) Copy Names and Format According to Company's Email Naming Schema
+6) Copy Names and Format According to Company's Email Address Naming Schema
 
 
-# TLDR - console command:
+
+## TLDR - console command:
 
 ` > let els = document.getElementsByClassName("org-people-profile-card__profile-title");Array.prototype.forEach.call(els, function(el) {console.log(el.innerText);});`

@@ -24,12 +24,14 @@ LinkedIn Name Scrape (Manual)
 
 5) Run Command below to Capture all the Elements that Contain Names and Save it to a Variable Named els (or elements or anything you like) 
     
-    `let els = document.getElementsByClassName("org-people-profile-card__profile-title");Array.prototype.forEach.call(els, function(el) {console.log(el.innerText);});`
+    ` > let els = document.getElementsByClassName("org-people-profile-card__profile-title");Array.prototype.forEach.call(els, function(el) {console.log(el.innerText);});`
 
 
 5) Copy Names and Format According to Company's Email Naming Schema
 
 
+
+
 # TLDR - console command:
 
-> let els = document.getElementsByClassName("org-people-profile-card__profile-title");Array.prototype.forEach.call(els, function(el) {console.log(el.innerText);});
+` > let els = document.getElementsByClassName("org-people-profile-card__profile-title");Array.prototype.forEach.call(els, function(el) {console.log(el.innerText);});`

@@ -1,5 +1,6 @@
 LinkedIn Name Scrape (Manual)
 =============================
+Manaul method to scrape employee names from a Company's LinkedIn page to use for password spraying attacks
 
 1) Visit People Section of Company's LinkedIn as an Authenticated LI User
 

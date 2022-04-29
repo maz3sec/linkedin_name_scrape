@@ -29,7 +29,7 @@ LinkedIn Name Scrape (Manual)
 
 5) Copy Names and Format According to Company's Email Naming Schema
 
-
+![linkedin_name_scrape_PoC](https://user-images.githubusercontent.com/52467325/166062515-594a9dfc-2a12-4e24-96ce-c024512058af.png)
 
 
 # TLDR - console command:

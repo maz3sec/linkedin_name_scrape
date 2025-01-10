@@ -37,3 +37,8 @@ LinkedIn Name Scrape
 ## TLDR - web console command:
 
 ` > let els = document.getElementsByClassName("org-people-profile-card__profile-title");Array.prototype.forEach.call(els, function(el) {console.log(el.innerText);});`
+
+### Updated - 1/10/25
+
+` > const names = Array.from(document.querySelectorAll('.lt-line-clamp--single-line')).map(element => element.textContent.trim());
+names.forEach(name => console.log(name));`

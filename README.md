@@ -42,3 +42,7 @@ LinkedIn Name Scrape
 
 ` > const names = Array.from(document.querySelectorAll('.lt-line-clamp--single-line')).map(element => element.textContent.trim());
 names.forEach(name => console.log(name));`
+
+### Updated - 2/4/25
+
+` > document.querySelectorAll('.lt-line-clamp--single-line').forEach(el => console.log(el.textContent.trim()));`
